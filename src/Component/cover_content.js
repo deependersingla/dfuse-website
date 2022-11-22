@@ -31,7 +31,7 @@ class CoverContent extends Component {
             <a
                 href="#HowItWorks"
             >
-                <button type="button" class="button-1">More About Us</button>
+                <button type="button" className="button-1">More About Us</button>
             </a>
         </div>
     }

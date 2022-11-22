@@ -20,7 +20,7 @@ class HomeScreen extends Component {
                 <div className="row align-middle " style={{ margin: "5em" }}>
                     {/* <div className='col-md-1 col-sm-none '></div> */}
                     <div className='col-12'>
-                        <Link to='/home' activeStyle>
+                        <Link to='/home'>
                             <img
                                 src={require('../Assets/defuse__complete_logo.png')}
                                 alt="dFuse logo"

@@ -8,13 +8,11 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter } from "react-router-dom";
-import A from "./a"
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      {/* <A /> */}
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
